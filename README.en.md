@@ -77,6 +77,17 @@ In the "Subscriptions" section, you can add public remote HTTPS wordlist URLs:
 - When due, the script automatically fetches and merges newly added keywords upon page load or panel open (additive merge policy).
 - Protected by 10-minute session throttling and network re-entrancy locks; you can also click "Sync now" at any time.
 
+#### Recommended Wordlists & Subscription URLs
+
+This repository provides and maintains curated blocklists targeting X / Twitter spam bots, adult content, gambling promotions, and evasion patterns (including zero-width spaces and regular expressions):
+
+- **Latest Snapshot**: [`x-blocked-keywords-2026-09-12.txt`](x-blocked-keywords-2026-09-12.txt) (exported 2026-09-12, contains 320+ curated keywords and regex rules)
+- **Stable Primary Wordlist**: [`x-keywords.txt`](x-keywords.txt) (recommended for long-term auto-sync)
+
+**Subscription URLs (paste into "Wordlist Subscriptions"):**
+- GitHub Raw: `https://raw.githubusercontent.com/dawencaixukun/x-keyword-blocker/main/x-keywords.txt`
+- jsDelivr CDN: `https://cdn.jsdelivr.net/gh/dawencaixukun/x-keyword-blocker@main/x-keywords.txt`
+
 ## Import, Export & Migration Backups
 
 ### 1. TXT Wordlist Import & Export

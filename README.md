@@ -77,6 +77,17 @@
 - 脚本启动或打开面板时，若距离上次同步已到期，将自动拉取最新词表并合并至当前规则库（采用“只增不删”合并策略）。
 - 同一页面生命周期内具备 10 分钟防抖节流与网络防重入机制，亦可在面板中随时点击“立即同步”。
 
+#### 推荐词库与订阅地址
+
+仓库内置并持续维护针对 Twitter / X 平台高频营销号、低俗推文、博彩引流及变体绕过（含零宽字符与高效正则表达式）的精选拦截词表：
+
+- **最新快照**：[`x-blocked-keywords-2026-09-12.txt`](x-blocked-keywords-2026-09-12.txt)（2026-09-12 导出，包含 320+ 条精选词与正则规则）
+- **长期维护主词库**：[`x-keywords.txt`](x-keywords.txt)（推荐用于长期订阅）
+
+**一键订阅地址（复制并在面板“词库订阅”中填入）：**
+- GitHub Raw：`https://raw.githubusercontent.com/dawencaixukun/x-keyword-blocker/main/x-keywords.txt`
+- jsDelivr CDN 加速：`https://cdn.jsdelivr.net/gh/dawencaixukun/x-keyword-blocker@main/x-keywords.txt`
+
 ## 导入、导出与迁移备份
 
 ### 1. TXT 词表导入与导出
